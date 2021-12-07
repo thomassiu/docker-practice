@@ -1,3 +1,6 @@
+# author: Thomas Siu
+# last update date: 7-Dec-2021
+
 FROM jupyter/scipy-notebook
 
 USER root
