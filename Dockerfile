@@ -3,7 +3,7 @@
 
 FROM jupyter/scipy-notebook
 
-USER root
+USER root 
 
 RUN apt-get update --yes
 
