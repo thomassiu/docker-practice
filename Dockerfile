@@ -1,8 +1,4 @@
-FROM jupyter/scipy-notebook
-
-USER root
-
-RUN apt-get update --yes
+FROM jupyter/scipy-notebook:hub-1.5.0
 
 RUN mamba install --quiet --yes \
     'docopt=0.6.2' \
